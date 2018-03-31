@@ -59,6 +59,7 @@ static void guessNumber() {
 
 		} 
 		System.out.println("Wygrałem! Zajęło mi to: " + counter + " ruch/ów/y!");
+		scan.close();
 	} catch (Exception e) {
 		System.out.println("Error: "+e.getMessage());
 	}
