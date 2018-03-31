@@ -101,7 +101,7 @@ public class Lotto_game {
 			} else if (counter ==6) {
 				System.out.println("Trafiłeś szóstkę!");
 			}
-			
+			scan.close();
 			
 		} catch (Exception e) {
 			System.out.println("Error!" + e.getMessage());
