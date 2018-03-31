@@ -26,9 +26,6 @@ public class Rolling_dice {
 	 * 2D10+12 
 	 * xDy+z
 	 * 
-	 * 
-	 * 
-	 * 
 	 */
 	
 	
@@ -96,17 +93,24 @@ public class Rolling_dice {
 		}
 		// I check if the parameters are right:
 		System.out.println("Liczba rzutów to: " + rollNumber + ". Rodzaj kostek to: " + diceType + ". Dodatkowy parametr to: " + additionalNumber);
+		
+		// I count the result of the rolling with random method; 
+		//I use for loop to find the random value from 1-diceType range for each rollNumber, then I add additional number
+		
 		int result = 0;
 		int oneRoll=0;
 		Random rand = new Random();
 		for (int i = 1; i<=rollNumber; i++) {
-			oneRoll = rand.nextInt(diceType) + 1;
+			oneRoll = rand.nextInt(diceType)+1;
 			result += oneRoll;
 		}
 		result+=additionalNumber;
 		
+		// add thread to simulate rolling the dices
 		System.out.println("Uwaga, rzucam...");
 		Thread.sleep(1500);
+		
+		//print the result
 		System.out.println("Wynik Twojego rzutu to: " + result);
 	}
 	
