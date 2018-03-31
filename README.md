@@ -9,4 +9,4 @@ You're welcome to give a try to one of my programs written in Java:
 - Dice roll - which you can use in your board games - it simulates the rolling of the dices - of size and number of your choice,
 - Popular words search - which you can use to find the most popular words from news-websites' headings.
 
-I hoper you have fun!
+I hope you have fun!
