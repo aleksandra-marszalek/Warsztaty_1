@@ -112,6 +112,7 @@ public class Rolling_dice {
 		
 		//print the result
 		System.out.println("Wynik Twojego rzutu to: " + result);
+		scan.close();
 	}
 	
 	
