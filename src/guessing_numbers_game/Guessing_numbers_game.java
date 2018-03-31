@@ -40,7 +40,7 @@ public class Guessing_numbers_game {
     			} catch (Exception e) {
     			// if couldn't parsed
     				System.out.println("To nie jest liczba! Wprowadź liczbę: ");
-			}
+			}scan.close();
 		}
 			
     }
